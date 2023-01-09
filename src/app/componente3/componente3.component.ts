@@ -35,7 +35,7 @@ mostrar(){
   localStorage.getItem('3')
   localStorage.getItem('4')
   localStorage.getItem('5')
-
+  localStorage.getItem('6')
 
 }
 
@@ -54,7 +54,7 @@ mostrar(){
   }
 
   factura(){
-    this.router.navigate ([2])
+    this.router.navigate ([5])
   }
 
 }

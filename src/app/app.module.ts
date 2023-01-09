@@ -10,6 +10,7 @@ import { Componente3Component } from './componente3/componente3.component';
 import { Componente4Component } from './componente4/componente4.component';
 import { Componente5Component } from './componente5/componente5.component';
 import { FormsModule } from '@angular/forms';
+import { UserNoFoundComponent } from './user-no-found/user-no-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     Componente2Component,
     Componente3Component,
     Componente4Component,
-    Componente5Component
+    Componente5Component,
+    UserNoFoundComponent
   ],
   imports: [
     BrowserModule,
