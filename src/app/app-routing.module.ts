@@ -8,7 +8,11 @@ import { Componente5Component } from './componente5/componente5.component';
 
 const routes: Routes = [
   { path : '', component : Componente1Component},
-  {path : '2', component: Componente2Component}
+  {path : '2', component: Componente2Component},
+  { path: '3', component: Componente3Component},
+  {path: '4', component: Componente4Component},
+  {path: '5', component: Componente5Component}
+
 
 ];
 

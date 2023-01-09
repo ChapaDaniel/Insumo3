@@ -60,7 +60,7 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url(https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg) no-repeat center;
+    background: url(https://sienttfuerte.com/wp-content/uploads/2018/07/fondo-gym.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -163,7 +163,7 @@ p {
 }
 
 .price {
-    background: url(https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg) no-repeat center;
+    background: url(https://sienttfuerte.com/wp-content/uploads/2018/07/fondo-gym.jpg)no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -174,23 +174,4 @@ p {
     padding-top: 20px;
     background: #171717;
     padding-bottom: 0;
-}
-
-
-@media (max-width: 768px) {
-
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-    }
-
-    .sau {
-        height: 100vh;
-    }
-
-    .navbar {
-        display: none;
-    }
-   
-    
 }
