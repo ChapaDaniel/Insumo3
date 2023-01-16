@@ -1,6 +1,9 @@
 *{
-    color: #fff;
+    color: rgb(167, 54, 54);
 }
 img{
     height: 300px;
+}
+.login-box{
+    text-align: center;
 }

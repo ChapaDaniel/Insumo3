@@ -11,8 +11,8 @@ export class Componente1Component {
 
   }
 
-  Usuario: any = " ";
-  Contrasena: any = " ";
+  Usuario: any = "";
+  Contrasena: any = "";
 
   guardar(){
     localStorage.setItem('USER', this.Usuario)
@@ -29,7 +29,7 @@ export class Componente1Component {
 
   CambioPag()
 {
- if ( this.Usuario='DanielChapa' && this.Contrasena== 'daniel@gmail.com') {
+ if ( this.Usuario='DanielChapa' && this.Contrasena== 'cccc') {
 
   this.enviar.navigate([2])
   
