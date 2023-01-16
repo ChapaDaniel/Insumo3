@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-componente5',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./componente5.component.css']
 })
 export class Componente5Component {
+  constructor( private router : Router){
 
+  }
+
+  
+
+  Volver(){
+    this.router.navigate([""])
+  }
 }

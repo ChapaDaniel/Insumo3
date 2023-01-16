@@ -5,11 +5,12 @@
       <h1>APPLE GYM</h1>
       <form>
         
-        <label for="UsuarioD">Username</label>
-        <input type="text" placeholder="Enter Username">
-        <label for="passwdD">Password</label>
-        <input type="password" placeholder="Enter password">
+        <label for="username" > Username</label>
+        <input class="controls"  [(ngModel)]="Usuario" type="text" name="usuario" value="" placeholder="Usuario">
+        <label for="password">Password</label>
+        <input class="controls" [(ngModel)]="Contrasena" type="password" name="contrasena" value="" placeholder="Contraseña">
         <input (click)="CambioPag()" type="submit" value="Log In">
+        
       </form>
     </div>
   </body>

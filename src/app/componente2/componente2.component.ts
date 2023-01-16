@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./componente2.component.css']
 })
 export class Componente2Component {
-  constructor( public router : Router){
+  constructor( private router : Router){
 
 
   }

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,12 +7,22 @@ import { Router } from '@angular/router';
   styleUrls: ['./componente3.component.css']
 })
 export class Componente3Component {
-  @Input() Pasar: any = " ";
-  @Input() Pasar1: any = " ";
-  @Input() Pasar2: any = " ";
-  @Input() Pasar3: any = " ";
-  @Input() Pasar4: any = " ";
-@Input() Pasar5: any = " ";
+
+  constructor(private enviar : Router){
+
+  }
+  factura(){
+    this.enviar.navigate ([6])
+  }
+
+
+
+  Pasar: any = " ";
+  Pasar1: any = " ";
+  Pasar2: any = " ";
+  Pasar3: any = " ";
+  Pasar4: any = " ";
+  Pasar5: any = " ";
 
 mandar(){
   localStorage.setItem('0', this.Pasar)
@@ -35,26 +45,8 @@ mostrar(){
   localStorage.getItem('3')
   localStorage.getItem('4')
   localStorage.getItem('5')
-  localStorage.getItem('6')
+
 
 }
-
-
-
-
-
-
-
-
-
-  //-------------------------------------------
-
-  constructor( private router : Router){
-
-  }
-
-  factura(){
-    this.router.navigate ([5])
-  }
 
 }
